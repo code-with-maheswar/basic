@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./un.css">
+</head>
+<body>
+<div>
+    <h1>Form</h1>
+    <form action="./server">
+      <label for="text"> Enter your name :</label>
+      <input  type="text" id="text" name="text" placeholder="Enter your name"><br ><br>
+      <label for="sx">Sex: </label>
+      <input type="radio" name="sex" id="sx" value="M">Male
+      <input type="radio" name="sex" id="sx" value="F">female <br ><br >
+      Country:
+      <select name="coun" id="coun">
+          <option > </option>
+          <option value="in">India</option>
+          <option value="pak">Paakistan</option>
+          <option value="uk">Ukran</option>
+          <option value="usa">Amarica</option>
+          <option value="rus">Rusia</option>
+      </select> <br ><br >
+      <label for="comm">Message:</label>
+      <br><textarea id="comm" rows="3" cols="20"  name="mass"></textarea> <br><br>
+      <input type="checkbox" name="check">subscrib
+      <br><br>
+      <button>submit your bio</button>
+  </form>
+    
+  
+    <h1>Feedback Form</h1>
+    <form action="./action">
+        <label for="tex">Name:</label>
+        <input type="text" name="text" id="tex" placeholder="Writ your name"><br><br>
+        <label for="ml">Email:</label>
+        <input type="email" name="mail" id="ml" placeholder="Writ your email"><br><br>
+            
+        <label for="ms">Message:</label><br>
+        <textarea name="mess" rows="3" cols="20" id="ms"></textarea>
+         <br><br>
+         Rate us our of 5:<br>
+         <input type="radio" name="rate" value="1star">1<br>
+         <input type="radio" name="rate" value="2star">2<br>
+         <input type="radio" name="rate" value="3star">3<br>
+         <input type="radio" name="rate" value="4star">4<br>
+         <input type="radio" name="rate" value="5tar">5<br><br>
+         <button>Send your Message</button>       
+    </form>
+  </div>
+  
+
+
+</body>
+</html>
