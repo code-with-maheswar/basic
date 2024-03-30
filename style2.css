@@ -1,0 +1,29 @@
+img{
+    width: 150px;
+    height: 150px;
+    margin-left: 2.5px;
+   
+    border-radius: 10px;
+    
+    
+    
+    
+}
+ .po{
+    width: 156px;
+    height: 240px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    transition: box-shadow 0.5s ease-in 1s;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    
+} 
+#ok{
+    margin-left:5px;
+    font-size: 1em;
+}
+.po:hover{
+    box-shadow: 6px 6px 56px goldenrod;
+} 
